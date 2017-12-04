@@ -9,16 +9,19 @@ Playground for scripts dealing with various Rohde &amp; Schwarz instruments.
  * [R&S HMC8012 Digital Multimeter SCPI Programmers Manual](https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/h/hmc8012_1/HMC8012_SCPI_ProgrammersManual_en_01.pdf)
 
 ## Programs
- * `instrument-hello.sh` shell script getting the device identification using telnet
-  * used SCPI commands: 
-   * `*IDN?`
- * `instrument-hello.py` get and print the device identification using PyVISA and PyVISA-py
-  * used SCPI commands: i
-   * `*IDN?`
-   * `*WAI`
- * `hmo1002-screenshot.py` obtain and safe a screen shot in PNG format from a Rohde & Schwarz HMO1002 oscilloscope using PyVISA and PyVISA-py
-  * used SCPI commands: i
-   * `*IDN?` 
-   * `*WAI`
-   * `HCOPY:FORMAT PNG`
-   * `HCOPY:DATA?`
+ * `instrument-hello.sh` 
+   * Shell script getting the device identification using telnet
+   * Used SCPI commands: 
+     * `*IDN?`
+ * `instrument-hello.py`
+   * Get and print the device identification using PyVISA and PyVISA-py
+   * Used SCPI commands: i
+     * `*IDN?`
+     * `*WAI`
+ * `hmo1002-screenshot.py`
+   * Obtain and safe a screen shot in PNG format from a Rohde & Schwarz HMO1002 oscilloscope using PyVISA and PyVISA-py
+   * Used SCPI commands: i
+     * `*IDN?` 
+     * `*WAI`
+     * `HCOPY:FORMAT PNG`
+     * `HCOPY:DATA?`
