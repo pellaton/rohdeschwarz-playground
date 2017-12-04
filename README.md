@@ -15,12 +15,12 @@ Playground for scripts dealing with various Rohde &amp; Schwarz instruments.
      * `*IDN?`
  * `instrument-hello.py`
    * Get and print the device identification using PyVISA and PyVISA-py
-   * Used SCPI commands: i
+   * Used SCPI commands:
      * `*IDN?`
      * `*WAI`
  * `hmo1002-screenshot.py`
    * Obtain and safe a screen shot in PNG format from a Rohde & Schwarz HMO1002 oscilloscope using PyVISA and PyVISA-py
-   * Used SCPI commands: i
+   * Used SCPI commands:
      * `*IDN?` 
      * `*WAI`
      * `HCOPY:FORMAT PNG`
